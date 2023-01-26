@@ -56,11 +56,29 @@ body, html{
     text-align: center;
     width: 100%;
     height: 100%;
-    background-color: #875936;
+    background-color: #dfcbb3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .frame_real {
     vertical-align: center;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.img__logo {
+    width: 20vw;
+    height: 10vh;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 896px){
+    .img__logo {
+        width: 40vw;
+        height: 6vh;
+        margin-top: 3%;
+    }
 }
